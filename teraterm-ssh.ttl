@@ -1,0 +1,13 @@
+HOSTADDR = '172.17.64.2'
+USERNAME = 'vagrant'
+PASSWORD = 'vagrant'
+
+COMMAND = HOSTADDR
+strconcat COMMAND ':22 /ssh /2 /auth=password /user='
+strconcat COMMAND USERNAME
+strconcat COMMAND ' /passwd='
+strconcat COMMAND PASSWORD
+
+connect COMMAND
+
+end
