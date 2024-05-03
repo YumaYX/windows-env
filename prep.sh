@@ -9,4 +9,7 @@ Host GitHub
     User git
 CONFIGEOF
 
-chmod 400 /vagrant/id_rsa
+cp -v /vagrant/id_rsa ~/.ssh/
+chown yuma. ~/.ssh/id_rsa
+chmod 400 ~/.ssh/id_rsa
+
