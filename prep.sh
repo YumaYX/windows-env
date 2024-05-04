@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 
+mkdir -p ~/.ssh
 cat <<'CONFIGEOF' > ~/.ssh/config
 Host GitHub
     HostName github.com
