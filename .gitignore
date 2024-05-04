@@ -7,3 +7,5 @@
 !teraterm-ssh.ttl
 !.gitignore
 !makefile
+
+!*.bat
