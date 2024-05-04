@@ -3,7 +3,7 @@
 cat <<'CONFIGEOF' > ~/.ssh/config
 Host GitHub
     HostName github.com
-    IdentityFile ~/yuma/.ssh/id_rsa
+    IdentityFile ~/.ssh/id_rsa
     TCPKeepAlive yes
     IdentitiesOnly yes
     User git
