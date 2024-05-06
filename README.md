@@ -1,7 +1,5 @@
 # windows env
 
 ```pwsh
-winget install Microsoft.VisualStudioCode
-winget install Hashicorp.Vagrant
-winget install Oracle.Virtualbox
+winget install Microsoft.VisualStudioCode Hashicorp.Vagrant Oracle.Virtualbox git.git
 ```
