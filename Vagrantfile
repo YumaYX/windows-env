@@ -4,9 +4,10 @@
 Vagrant.configure("2") do |config|
   config.vm.box = "almalinux/9"
   config.vm.provider "virtualbox" do |hv|
-    hv.memory = "4096"
-    hv.cpus = 4
+    hv.memory = "1024"
+    hv.cpus = 2
   end
+
   config.vm.network :private_network, ip:"172.17.64.2"
   config.vm.synced_folder '.', '/vagrant'
   config.vm.provision "shell", inline: <<-SHELL
