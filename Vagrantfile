@@ -4,8 +4,8 @@
 Vagrant.configure("2") do |config|
   config.vm.box = "almalinux/9"
   config.vm.provider "virtualbox" do |hv|
-    hv.memory = "1024"
-    hv.cpus = 2
+    hv.memory = "2048"
+    hv.cpus = 4
   end
 
   config.vm.network :private_network, ip:"172.17.64.2"
