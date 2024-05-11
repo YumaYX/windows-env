@@ -11,5 +11,5 @@ Host GitHub
 CONFIGEOF
 
 cp -fv /vagrant/id_rsa ~/.ssh/
-chown yuma. ~/.ssh/id_rsa
+chown $(whoami). ~/.ssh/id_rsa
 chmod 400 ~/.ssh/id_rsa
